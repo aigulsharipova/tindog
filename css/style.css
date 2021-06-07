@@ -13,3 +13,10 @@ h1 {
   font-size: 3rem;
   line-height: 1.5;
 }
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
