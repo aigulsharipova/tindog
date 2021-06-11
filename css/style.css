@@ -10,13 +10,23 @@ body {
 }
 
 h1 {
-  font-family: "Montserrat";
+  font-family: "Montserrat-Black";
   font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
   line-height: 1.5;
 }
 
 h3 {
   font-family: "Montserrat-Bold";
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
 }
 
 /* Navigation Bar */
@@ -62,4 +72,17 @@ download-button {
 
 .icon {
   color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
 }
