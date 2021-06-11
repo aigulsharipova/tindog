@@ -31,10 +31,11 @@ h1 {
 
 .nav-link {
   font-size: 1.2rem;
+  font-family: "Montserrat";
 }
 
 /* Download Buttons */
-download-buttom {
+download-button {
   margin: 5% 3% 5% 0;
 }
 
@@ -42,4 +43,13 @@ download-buttom {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+}
+
+/* Features Section */
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
 }
