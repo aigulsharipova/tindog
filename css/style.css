@@ -108,6 +108,7 @@ download-button {
 
 /* Pricing */
 #pricing {
+  text-align: center;
   padding: 100px;
 }
 
