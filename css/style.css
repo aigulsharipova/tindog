@@ -2,15 +2,6 @@ body {
   font-family: "Montserrat";
 }
 
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-}
-
-.container-fluid {
-  padding: 3% 15% 7%;
-}
-
 h1 {
   font-family: "Montserrat";
   font-size: 3.5rem;
@@ -31,6 +22,14 @@ p {
   color: #8f8f8f;
 }
 
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
 /* Navigation Bar */
 
 .navbar {
@@ -61,7 +60,7 @@ download-button {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
-  position: absolute;
+
   right: 30%;
 }
 
