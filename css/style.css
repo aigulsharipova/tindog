@@ -2,24 +2,26 @@ body {
   font-family: "Montserrat";
 }
 
-h1 {
-  font-family: "Montserrat";
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-h2 {
-  font-family: "Montserrat-Bold";
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
+h2,
 h3 {
   font-family: "Montserrat-Bold";
-  font-size: 1.5rem;
 }
 
 p {
   color: #8f8f8f;
+}
+
+/* Heading */
+
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 #title {
@@ -71,6 +73,10 @@ download-button {
   position: relative;
 }
 
+.feature-title {
+  font-size: 1.5rem;
+}
+
 .feature-box {
   text-align: center;
   padding: 4.5%;
@@ -86,10 +92,16 @@ download-button {
 }
 
 /* Testimonials */
+
 #testimonials {
   text-align: center;
   background-color: #ef8172;
   color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -120,6 +132,10 @@ download-button {
 
 .pricing-column {
   padding: 3% 2%;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 /* CTA Section */
